@@ -40,22 +40,22 @@ layers:
   - )
   - '|'
   - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '{'
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - \
   - {t: ▽, type: trans}
   - '&studio_unlock'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - UP
   - {t: ▽, type: trans}
-  - '0'
+  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
@@ -98,8 +98,8 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - DEL
-  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -147,7 +147,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - PRINTSCREEN
   - ''
   - ''
   - RGB BRD
