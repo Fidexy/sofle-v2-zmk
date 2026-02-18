@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RGUI]
+    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, SPACE, ENTER, raise, RCTRL, RALT, RGUI]
   lower:
   - '&studio_unlock'
   - F1
@@ -16,26 +16,26 @@ layers:
   - F10
   - F11
   - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - '-'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F12
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - $
   - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - (
   - )
   - '|'
@@ -49,8 +49,8 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
+  - '['
+  - ']'
   - \
   - {t: ▽, type: trans}
   - '&studio_unlock'
@@ -110,8 +110,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -185,3 +185,6 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [24, 12]
+  k: CAPSLOCK
